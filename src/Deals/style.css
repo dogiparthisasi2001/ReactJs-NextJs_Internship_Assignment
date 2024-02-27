@@ -11,17 +11,20 @@
 .dealsRow .card{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 3px 0 6px rgba(0, 0, 0, 0.23);
     border: none;
-    width: 31%;
+    width: calc(35% - 60px);
+    box-sizing: border-box;
     border-radius: 10px;
     margin: 0px 15px;
+    margin-top: 30px;
     padding: 0px 30px;
 }
 
 .card img{
-    width: 200px;
+    width: 100%;
+    padding: 15%;
     height: auto;
-    margin: 60px 0px;
-    transform: translateX(40%);
+    text-align: center !important;
+    display: block !important;
 }
 
 .card .off{
@@ -65,9 +68,13 @@
     outline: none !important;
 }
 
-.signUpRow h1{
-    width: 80%;
-    font-weight: 400;
+.signUpRow{
+    height: auto;
+}
+
+.signUpRow .col-sm-6{
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .signup{
@@ -98,4 +105,23 @@
     outline: none;
     color: #fff;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 700px){
+    .dealsRow .card{
+        width: calc(100% - 40px) !important;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .dealsRow .card{
+        width: calc(50% - 40px);
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .signUpRow .col-sm-6{
+        flex: 0 0 100%;
+        max-width: 100% !important;
+    }
 }

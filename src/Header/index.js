@@ -17,7 +17,7 @@ const Header = () => {
                         <li><InfoOutlinedIcon />Advertising Disclosure</li>
                     </ul>
                     <hr />
-                    <div className='row buttonRow mt-4'>
+                    <div className='row buttonRow'>
                         <div className='col-sm-2'>
                             <Button>Tools</Button>
                         </div>

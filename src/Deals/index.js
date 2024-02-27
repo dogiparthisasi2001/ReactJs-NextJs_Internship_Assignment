@@ -9,7 +9,7 @@ const Deals = () => {
             <div className='dealsPage mt-5'>
                 <div className='container'>
                     <h1>Related deals you might like for</h1>
-                    <div className='row dealsRow mt-5'>
+                    <div className='row dealsRow'>
                         <div className='card'>
                             <img src={Img} alt='' />
                             <div className='d-flex'>
@@ -57,7 +57,7 @@ const Deals = () => {
                         </div>
                     </div>
 
-                    <div className='row signUpRow mt-5 mb-5 mr-5 ml-5'>
+                    <div className='row signUpRow mt-5 mr-5 ml-5'>
                         <div className='col-sm-6'>
                             <h1>Sign up and get exclusive special deals</h1>
                         </div>

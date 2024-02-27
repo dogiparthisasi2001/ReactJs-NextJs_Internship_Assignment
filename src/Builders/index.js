@@ -17,11 +17,11 @@ const Builders = () => {
                     <div className='row builder'>
                         <span className='badge'><EmojiEventsOutlinedIcon /> &nbsp; Best Choice</span>
                         <span className='num'>1</span>
-                        <div className='col-sm-3 part1'>
+                        <div className='col-md-3 part1'>
                             <img src={Img} alt='' />
                             <h5 className='mt-3'>Builder 1</h5>
                         </div>
-                        <div className='col-sm-6 pt-3 part2'>
+                        <div className='col-md-6 pt-3 part2'>
                             <p className='pt-3'><strong>WixPro 72-inch Responsive Website Builder- </strong>
                             Comprehensive  Digital Platform Creation Tool, Streamlined Design Interface for
                             Professional Websitesand Online Stores (Black/Blue).
@@ -32,7 +32,7 @@ const Builders = () => {
                             </p>
                             <Button>Show more<KeyboardArrowDownIcon /></Button>
                         </div>
-                        <div className='col-sm-3 d-flex flex-column part3'>
+                        <div className='col-md-3 d-flex flex-column part3'>
                             <div className='rating'>
                                 <h1>9.8</h1>
                                 <p className='mb-2'>Exceptional</p>
@@ -45,11 +45,11 @@ const Builders = () => {
                     <div className='row builder mt-5'>
                         <span className='badge'><DiamondOutlinedIcon /> &nbsp; Best Value</span>
                         <span className='num'>2</span>
-                        <div className='col-sm-3 part1'>
+                        <div className='col-md-3 part1'>
                             <img src={Img} alt='' />
                             <h5 className='mt-3'>Builder 2</h5>
                         </div>
-                        <div className='col-sm-6 pt-3 part2'>
+                        <div className='col-md-6 pt-3 part2'>
                             <p className='pt-3'><strong>SiteCraft 68-Inch Ultimate Web Design Studio -</strong> Advanced Site Creation
                             Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-Commerce Platforms (Green/White). 
                             </p>
@@ -59,23 +59,23 @@ const Builders = () => {
                             </p>
                             <Button>Show more<KeyboardArrowDownIcon /></Button>
                         </div>
-                        <div className='col-sm-3 d-flex flex-column part3'>
+                        <div className='col-md-3 d-flex flex-column part3'>
                             <div className='rating'>
                                 <h1>9.5</h1>
                                 <p className='mb-2'>Excellent</p>
                                 <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} size='small' className='mt-0' readOnly />
                             </div>
-                            <Button className='bg-primary mt-auto mb-3'>View</Button>
+                            <Button className='bg-primary mb-3'>View</Button>
                         </div>
                     </div>
 
                     <div className='row builder mt-5'>
                         <span className='num'>3</span>
-                        <div className='col-sm-3 part1'>
+                        <div className='col-md-3 part1'>
                             <img src={Img} alt='' />
                             <h5 className='mt-3'>Builder 3</h5>
                         </div>
-                        <div className='col-sm-6 pt-3 part2'>
+                        <div className='col-md-6 pt-3 part2'>
                             <p className='pt-3'><strong>WixPro 72-inch Responsive Website Builder- </strong>
                             Comprehensive  Digital Platform Creation Tool, Streamlined Design Interface for
                             Professional Websitesand Online Stores (Black/Blue).
@@ -86,7 +86,7 @@ const Builders = () => {
                             </p>
                             <Button>Show more<KeyboardArrowDownIcon /></Button>
                         </div>
-                        <div className='col-sm-3 d-flex flex-column part3'>
+                        <div className='col-md-3 d-flex flex-column part3'>
                             <div className='rating'>
                                 <h1>9.3</h1>
                                 <p className='mb-2'>Excellent</p>
@@ -98,11 +98,11 @@ const Builders = () => {
 
                     <div className='row builder mt-5'>
                         <span className='num'>4</span>
-                        <div className='col-sm-3 part1'>
+                        <div className='col-md-3 part1'>
                             <img src={Img} alt='' />
                             <h5 className='mt-3'>CDK</h5>
                         </div>
-                        <div className='col-sm-6 pt-3 part2'>
+                        <div className='col-md-6 pt-3 part2'>
                             <p className='pt-3 mb-2'><strong>CDK Responsive Builder: </strong>
                             An extensive library of widgets and apps, detailed step-by-step guides
                             </p>
@@ -121,7 +121,7 @@ const Builders = () => {
                             </ul>                         
                             <Button>Show more<KeyboardArrowDownIcon /></Button>
                         </div>
-                        <div className='col-sm-3 d-flex flex-column part3'>
+                        <div className='col-md-3 d-flex flex-column part3'>
                             <div className='rating'>
                                 <h1>9.1</h1>
                                 <p className='mb-2'>Good</p>

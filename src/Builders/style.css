@@ -6,6 +6,7 @@
     box-shadow: 3px 0 6px rgba(0, 0, 0, 0.16), 3px 0 6px rgba(0, 0, 0, 0.23);
     border-radius: 20px;
     position: relative;
+    display: flex;
 }
 
 .builder .part1 {
@@ -97,6 +98,7 @@
     outline: none;
     padding: 10px 0px;
     border-radius: 15px;
+    margin-top: auto;
 }
 
 .off {
@@ -138,4 +140,21 @@ ul {
     font-size: 22px;
     padding: 5px;
     margin: 5px;
+}
+
+@media only screen and (max-width: 770px){
+    .builder{
+        flex-direction: column;
+    }
+    .builder .col-md-3,
+    .builder .col-md-3,
+    .builder .col-md-6{
+        width: 100% !important;
+    }
+    .part3{
+        margin-top: 30px !important;
+    }
+    .part3 button{
+        margin-top: 20px !important;
+    }
 }

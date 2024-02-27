@@ -2,6 +2,12 @@
     background: #3a4750;
     color: #fff;
     margin: 0px 15px;
+    margin-top: 100px;
+}
+
+.footerPage .col-sm-4{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
 }
 
 ul li{
@@ -19,4 +25,14 @@ p svg{
 
 h3{
     font-weight: 400;
+}
+
+@media only screen and (max-width: 700px){
+    .footerPage .col-md-4{
+        flex: 0 0 100% !important;
+        width: 100% !important;
+    }
+    .footerPage .col-md-4 p{
+        margin-left: 30px;
+    }
 }
